@@ -4,11 +4,11 @@ int main(void){
     char menu[10];
     char c='d';
     int op=1;
-    float next, total;
+    double next, total;
 
     
     printf("input your first number: ");
-    scanf("%f", &total);
+    scanf("%lf", &total);
     getchar();    
     
     while(op!=0){
@@ -20,7 +20,7 @@ int main(void){
             break;
         }
         printf("input a number: ");
-        scanf("%f", &next);
+        scanf("%lf", &next);
         getchar();
         switch (c){
             case '+':
