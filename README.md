@@ -1,4 +1,4 @@
-# Console-C-Calculator
+# C-Calculator
 
 Console calculator built in C that supports chained operations on multiple numbers.
 
